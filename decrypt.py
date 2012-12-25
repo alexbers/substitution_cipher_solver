@@ -9,7 +9,7 @@ try:
 except ImportError:
     maketrans = str.maketrans
 
-MAX_GOODNESS_LEVEL = 5  # 1-10
+MAX_GOODNESS_LEVEL = 2  # 1-7
 MAX_BAD_WORDS_RATE = 0.06
 
 ABC = "abcdefghijklmnopqrstuvwxyz"
