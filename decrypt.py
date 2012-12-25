@@ -142,17 +142,25 @@ class KeyFinder:
         possible_letters = [set(ABC) for i in range(len(ABC))]
         self.recursive_calc_key("." * len(ABC), possible_letters, 1)
 
-enc_text = open("encrypted.txt").read().lower()
-enc_words = re.findall(r"[a-z']+", enc_text)
 
-# skip the words with apostrophs
-enc_words = [word for word in enc_words
-                  if "'" not in word and
-                     len(word) <= WordList.MAX_WORD_LENGTH_TO_CACHE
-            ]
-enc_words = enc_words[:2000]
+def main():
+    enc_text = open("encrypted.txt").read().lower()
+    enc_words = re.findall(r"[a-z']+", enc_text)
 
-print("Loaded %d words in encrypted.txt, loading dicts" % len(enc_words))
-dict_wordlist = WordList()
-finder = KeyFinder(dict_wordlist, enc_words)
-finder.find()
+    # skip the words with apostrophs
+    enc_words = [word for word in enc_words
+                      if "'" not in word and
+                         len(word) <= WordList.MAX_WORD_LENGTH_TO_CACHE
+                ]
+    enc_words = enc_words[:2000]
+
+    print("Loaded %d words in encrypted.txt, loading dicts" % len(enc_words))
+    dict_wordlist = WordList()
+    finder = KeyFinder(dict_wordlist, enc_words)
+    finder.find()
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as E:
+        print("Error: %s" % E)

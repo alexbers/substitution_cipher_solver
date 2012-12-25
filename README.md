@@ -1,7 +1,7 @@
-Permutation Cipher Solver
+Substitution Cipher Solver
 =========================
 
-Simple permutation cipher solver.
+Simple substitution cipher solver.
 
 ## Usage ##
 
