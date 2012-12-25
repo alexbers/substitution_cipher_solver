@@ -1406,7 +1406,6 @@ clitorides
 cloaca
 cloacae
 cloddish
-cloisonné
 cloistral
 clonal
 closeup
@@ -1720,8 +1719,6 @@ cottars
 cottony
 coulomb
 coulombs
-coulée
-coulées
 councilperson
 councilpersons
 counteractive
@@ -2334,7 +2331,6 @@ dynamiters
 dyslectic
 dyslectics
 dysprosium
-démodé
 eared
 easement
 easements
@@ -2735,7 +2731,6 @@ fawners
 fay
 fayest
 fays
-faïence
 featherless
 fecklessly
 fecundate
@@ -3096,9 +3091,6 @@ glaciated
 glaciates
 glaciating
 glaciations
-glacéed
-glacéing
-glacés
 gladsome
 glandes
 glans
@@ -4255,8 +4247,6 @@ lithographically
 litotes
 litterer
 litterers
-littérateur
-littérateurs
 liturgist
 liturgists
 liverwort
@@ -5676,10 +5666,6 @@ pitapat
 pitapats
 piteousness
 pithiness
-piñata
-piñatas
-piñon
-piñons
 placeholders
 placekick
 placekicked
@@ -5754,8 +5740,6 @@ porkiest
 pornographically
 porousness
 porphyritic
-portière
-portières
 portulaca
 postconsonantal
 posthypnotic
@@ -7222,7 +7206,6 @@ sockeyes
 soddenly
 soever
 softbound
-soigné
 sojourner
 sojourners
 solderer

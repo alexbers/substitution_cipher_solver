@@ -1,10 +1,13 @@
 #!/usr/bin/python
 
-import string
 import copy
 import re
 from itertools import combinations
 
+try:
+    from string import maketrans
+except ImportError:
+    maketrans = str.maketrans
 
 MAX_GOODNESS_LEVEL = 5  # 1-10
 MAX_BAD_WORDS_RATE = 0.06
@@ -80,7 +83,7 @@ class KeyFinder:
     def get_key_points(self, key):
         """ the key is 26 byte alpha string with dots on unknown places """
 
-        trans = string.maketrans(ABC, key)
+        trans = maketrans(ABC, key)
         points = 0
 
         for enc_word in self.enc_words:
@@ -94,14 +97,14 @@ class KeyFinder:
 
     def recursive_calc_key(self, key, possible_letters, level):
         """ returns True if solution founded """
-        print "Level: %3d, key: %s" % (level, key)
+        print("Level: %3d, key: %s" % (level, key))
 
         if '.' not in key:
-            print "Found:", key
-            print "Bad words:", self.get_key_points(key)
-            print "Result:"
-            trans = string.maketrans(ABC, key)
-            print open("encrypted.txt").read().translate(trans)
+            print("Found: %s" % key)
+            print("Bad words: %s" % self.get_key_points(key))
+            print("Result:")
+            trans = maketrans(ABC, key)
+            print(open("encrypted.txt").read().translate(trans))
 
             return True
 
@@ -149,7 +152,7 @@ enc_words = [word for word in enc_words
             ]
 enc_words = enc_words[:2000]
 
-print "loaded %d words in encrypted.txt, loading dicts" % len(enc_words)
+print("Loaded %d words in encrypted.txt, loading dicts" % len(enc_words))
 dict_wordlist = WordList()
 finder = KeyFinder(dict_wordlist, enc_words)
 finder.find()

@@ -12,8 +12,6 @@ abattoir
 abattoirs
 abbess
 abbesses
-abbé
-abbés
 abductor
 abductors
 abeam
@@ -179,7 +177,6 @@ adiabatic
 adieu
 adieus
 adipose
-adiós
 adjacently
 adjectivally
 adjudge
@@ -654,10 +651,6 @@ appertained
 appertaining
 appertains
 applejack
-appliqué
-appliquéd
-appliquéing
-appliqués
 apportionment
 appositely
 appositeness
@@ -1702,8 +1695,6 @@ bounder
 bounders
 bounteous
 bountifully
-boutonnière
-boutonnières
 bower
 bowers
 bowlers
@@ -2063,8 +2054,6 @@ campy
 cams
 camshaft
 camshafts
-canapé
-canapés
 canard
 canards
 canasta
@@ -2521,8 +2510,6 @@ churlishly
 churlishness
 churls
 chutney
-châtelaine
-châtelaines
 cicada
 cicadas
 cicatrices
@@ -2609,7 +2596,6 @@ clew
 clewed
 clewing
 clews
-clichéd
 clincher
 clinchers
 clingier
@@ -2959,8 +2945,6 @@ conformance
 conformation
 conformations
 confrontational
-confrère
-confrères
 confusedly
 confusingly
 confusions
@@ -3189,8 +3173,6 @@ corsairs
 cortical
 cortices
 cortisone
-cortège
-cortèges
 coruscate
 coruscated
 coruscates
@@ -3418,15 +3400,12 @@ croupier
 croupiers
 croupiest
 croupy
-croûton
-croûtons
 crucible
 crucibles
 cruciform
 cruciforms
 crudeness
 crudities
-crudités
 cruet
 cruets
 cruller
@@ -3446,8 +3425,6 @@ cryptography
 crystalline
 crystallographic
 crystallography
-crèche
-crèches
 cubbyhole
 cubbyholes
 cubical
@@ -3930,8 +3907,6 @@ derogating
 derogation
 derringer
 derringers
-derrière
-derrières
 dervish
 dervishes
 desalinate
@@ -4593,9 +4568,6 @@ dynastic
 dyspepsia
 dyspeptic
 dyspeptics
-décolleté
-dérailleur
-dérailleurs
 eMusic
 eaglet
 eaglets
@@ -5480,8 +5452,6 @@ flagstaffs
 flakiness
 flambeing
 flambes
-flambé
-flambéed
 flamethrower
 flamethrowers
 flammability
@@ -5710,7 +5680,6 @@ franchiser
 franchisers
 frankincense
 frappes
-frappé
 fraternally
 fratricide
 fratricides
@@ -6306,8 +6275,6 @@ habituated
 habituates
 habituating
 habituation
-habitué
-habitués
 hacienda
 haciendas
 hackle
@@ -7277,8 +7244,6 @@ ingratiatingly
 ingress
 ingresses
 ingrown
-ingénue
-ingénues
 inhabitable
 inhalant
 inhalants
@@ -7576,8 +7541,6 @@ jaggedness
 jags
 jailbreak
 jailbreaks
-jalapeño
-jalapeños
 jalousie
 jalousies
 janitorial
@@ -7589,8 +7552,6 @@ jape
 japed
 japes
 japing
-jardinière
-jardinières
 jasmine
 jasmines
 jasper
@@ -7833,8 +7794,6 @@ krone
 kroner
 kronor
 krypton
-króna
-krónur
 kudzu
 kudzus
 kumquat
@@ -8385,7 +8344,6 @@ mackinaw
 mackinaws
 mackintosh
 mackintoshes
-macramé
 macrobiotic
 macrobiotics
 macron
@@ -8502,7 +8460,6 @@ mannerly
 mannishly
 mannishness
 manorial
-manqué
 mansard
 mansards
 manse
@@ -8517,7 +8474,6 @@ manumit
 manumits
 manumitted
 manumitting
-manège
 marabou
 marabous
 maraca
@@ -8603,7 +8559,6 @@ matzohs
 matzos
 matzot
 matzoth
-matériel
 maunder
 maundered
 maundering
@@ -9272,8 +9227,6 @@ mystification
 mythic
 mythologist
 mythologists
-métier
-métiers
 nabob
 nabobs
 nacho
@@ -9842,7 +9795,6 @@ outrider
 outriders
 outrigger
 outriggers
-outré
 outsell
 outselling
 outsells
@@ -11212,8 +11164,6 @@ provocatively
 prudential
 prudery
 prudishly
-précised
-précising
 psalmist
 psalmists
 pshaw
@@ -11642,7 +11592,6 @@ recheck
 rechecked
 rechecking
 rechecks
-recherché
 recidivism
 recidivist
 recidivists
@@ -12313,8 +12262,6 @@ roundworm
 roundworms
 roustabout
 roustabouts
-roué
-roués
 rover
 rovers
 rowdyism
@@ -13439,8 +13386,6 @@ softwood
 softwoods
 soggily
 sogginess
-soirée
-soirées
 sol
 solaria
 solarium
@@ -13517,8 +13462,6 @@ soundlessly
 soupier
 soupiest
 soupy
-soupçon
-soupçons
 sourpuss
 sourpusses
 souse
@@ -14364,8 +14307,6 @@ syrupy
 systemic
 systemics
 systolic
-séance
-séances
 tableau
 tableaux
 tableland
@@ -14861,7 +14802,6 @@ tossup
 tossups
 totemic
 touchingly
-touché
 toughly
 tourmaline
 tourney
@@ -16001,8 +15941,6 @@ vicissitudes
 victoriously
 victual
 victuals
-vicuña
-vicuñas
 videodisc
 videodiscs
 viewfinder
@@ -16673,11 +16611,3 @@ zonked
 zwieback
 zygote
 zygotes
-éclat
-élan
-émigré
-émigrés
-épée
-épées
-étude
-études

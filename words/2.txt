@@ -1206,7 +1206,6 @@ atoning
 atrocious
 atrociously
 attachments
-attaché
 attacker
 attained
 attaining
@@ -2137,7 +2136,6 @@ blaspheming
 blasphemous
 blasphemy
 blaster
-blasé
 blaze
 blazed
 blazer
@@ -3152,7 +3150,6 @@ cadet
 cadets
 cafeteria
 cafeterias
-cafés
 caged
 cages
 cagey
@@ -4138,12 +4135,9 @@ clerking
 clerks
 cleverly
 cleverness
-clichés
 clicked
 clicking
 clicks
-clientèle
-clientèles
 cliffs
 climactic
 climates
@@ -4823,7 +4817,6 @@ consolidating
 consolidation
 consolidations
 consoling
-consommé
 consonant
 consonants
 consort
@@ -7024,8 +7017,6 @@ divisors
 divorced
 divorces
 divorcing
-divorcée
-divorcées
 divulge
 divulged
 divulges
@@ -7433,8 +7424,6 @@ dynasties
 dynasty
 dysentery
 dyslexia
-débutante
-débutantes
 eagerer
 eagerest
 eagerness
@@ -8019,8 +8008,6 @@ entrust
 entrusted
 entrusting
 entrusts
-entrée
-entrées
 entwine
 entwined
 entwines
@@ -8820,10 +8807,6 @@ feverishly
 fevers
 fez
 fezzes
-fiancé
-fiancée
-fiancées
-fiancés
 fiasco
 fiascoes
 fib
@@ -9834,8 +9817,6 @@ fuzzes
 fuzzier
 fuzziest
 fuzzing
-fête
-fêtes
 gab
 gabbed
 gabbing
@@ -14649,8 +14630,6 @@ maternity
 mates
 math
 mating
-matinée
-matinées
 matriarch
 matriarchal
 matriarchs
@@ -15638,7 +15617,6 @@ naively
 naiver
 naivest
 naivety
-naiveté
 nakedness
 namesake
 namesakes
@@ -16088,7 +16066,6 @@ nuzzling
 nylon
 nymph
 nymphs
-née
 oaf
 oafs
 oak
@@ -17020,7 +16997,6 @@ passions
 passively
 passives
 passports
-passé
 pasta
 pastas
 pasted
@@ -18660,8 +18636,6 @@ protrudes
 protruding
 protrusion
 protrusions
-protégé
-protégés
 prouder
 proudest
 proudly
@@ -18706,7 +18680,6 @@ prunes
 pruning
 pry
 prying
-précis
 psalm
 psalms
 pseudonym
@@ -20403,7 +20376,6 @@ riser
 risers
 riskier
 riskiest
-risqué
 rite
 rites
 rivalries
@@ -20901,10 +20873,6 @@ sauntering
 saunters
 sausage
 sausages
-sauté
-sautéed
-sautéing
-sautés
 savage
 savaged
 savagely
@@ -22579,8 +22547,6 @@ sorrowful
 sorrowing
 sorrows
 sorta
-soufflé
-soufflés
 sounder
 soundest
 soundly
@@ -27354,5 +27320,3 @@ zooms
 zoos
 zucchini
 zucchinis
-éclair
-éclairs

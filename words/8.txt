@@ -870,8 +870,6 @@ alchemically
 alcheringa
 alcoholicity
 alcoholometer
-alcázar
-alcázars
 aldehyde
 aldehydes
 aldol
@@ -1043,7 +1041,6 @@ alluvion
 alluvions
 allyl
 allyls
-allée
 almandine
 almandines
 almandite
@@ -1848,8 +1845,6 @@ aperiodic
 aperiodically
 apertural
 apery
-aperçu
-aperçus
 apetalous
 aphanite
 aphanites
@@ -2263,8 +2258,6 @@ arundinaceous
 aruspex
 arvo
 aryl
-arête
-arêtes
 asarum
 asbestoses
 asbestosis
@@ -2736,7 +2729,6 @@ azotic
 azotobacter
 azurite
 azygous
-aïoli
 baba
 babas
 babassu
@@ -3099,7 +3091,6 @@ bawdry
 bawdyhouse
 bawdyhouses
 bawler
-bayadère
 bayard
 baywood
 bazar
@@ -5397,8 +5388,6 @@ chassed
 chasseing
 chassepot
 chasseur
-chassé
-chassés
 chastener
 chatoyance
 chatoyancy
@@ -5815,8 +5804,6 @@ chyles
 chylous
 chymotrypsin
 chymous
-châtelain
-chèvre
 ciboria
 ciborium
 cicala
@@ -5919,7 +5906,6 @@ cirrose
 cirrostrati
 cirrostratus
 cirsoid
-ciré
 cisalpine
 cisco
 ciscoes
@@ -7168,8 +7154,6 @@ cortisol
 cortisols
 corves
 corvine
-corvée
-corvées
 corybantic
 corydalis
 corydalises
@@ -7929,8 +7913,6 @@ czardas
 czardom
 czarevitch
 czarevna
-córdoba
-córdobas
 dabchick
 dabchicks
 dabster
@@ -9244,8 +9226,6 @@ distich
 distichous
 distichs
 distinguishably
-distingué
-distinguée
 distortedly
 distortedness
 distortional
@@ -9412,8 +9392,6 @@ donjon
 donjons
 donna
 donnas
-donné
-donnée
 doodlesack
 doolie
 doorframe
@@ -9770,13 +9748,6 @@ dystrophy
 dysuria
 dziggetai
 dziggetais
-débridement
-débutant
-déclassé
-déclassée
-dégagé
-démarche
-démarches
 eaglestone
 eaglewood
 eagre
@@ -11381,7 +11352,6 @@ faena
 fagaceous
 fahlband
 faintheart
-fainéant
 fairish
 fairlead
 fairleads
@@ -12642,8 +12612,6 @@ galvanometrical
 galvanoscope
 galvanotropism
 galyak
-galère
-galères
 gam
 gamb
 gamba
@@ -12830,7 +12798,6 @@ gemmy
 gemot
 gemsbok
 gemsboks
-gemütlich
 genappe
 gendarmerie
 gendarmeries
@@ -17059,8 +17026,6 @@ kymograph
 kymographs
 kyphoses
 kyphosis
-kümmel
-kümmels
 laager
 laagers
 labarum
@@ -18132,18 +18097,12 @@ maculating
 maculation
 maculations
 macules
-macédoine
-macédoines
 madrepore
 madrepores
 madrigalian
 madrigalist
 madrigalists
 madrone
-madroña
-madroñas
-madroño
-madroños
 maduro
 madwort
 madworts
@@ -18210,7 +18169,6 @@ malacostracan
 maladapted
 maladaptive
 maladminister
-malagueña
 malapert
 malaprop
 malapropos
@@ -19137,7 +19095,6 @@ milline
 millines
 millivolt
 millivolts
-millième
 millrun
 millruns
 millwork
@@ -19912,9 +19869,6 @@ myxoma
 myxomatoses
 myxomycete
 myxomycetes
-mésalliance
-mésalliances
-métisses
 nacred
 naevi
 naevus
@@ -22254,7 +22208,6 @@ pensionary
 penstemon
 penstock
 penstocks
-pensée
 pentachlorophenol
 pentad
 pentadactyl
@@ -22872,8 +22825,6 @@ pietist
 pietistic
 pietistical
 pietistically
-pietà
-pietàs
 piezochemistry
 piezoelectrical
 piezoelectricities
@@ -22991,8 +22942,6 @@ piquet
 piquets
 piragua
 piratic
-piraña
-pirañas
 pirn
 pirog
 pirogue
@@ -23265,7 +23214,6 @@ poco
 pocosin
 podagra
 poddy
-podestà
 podiatric
 podite
 podophyllin
@@ -24611,7 +24559,6 @@ pyuria
 pyxidium
 pyxie
 pyxies
-père
 qadi
 qi
 qibla
@@ -25522,7 +25469,6 @@ reposition
 repositioned
 repositioning
 repositions
-repoussé
 repp
 repps
 representable
@@ -25744,7 +25690,6 @@ retrogradely
 retrogressively
 retronym
 retrorse
-retroussé
 retroversion
 retroversions
 retrusion
@@ -26178,10 +26123,6 @@ rutiles
 ruttish
 rya
 ryas
-régisseur
-réseau
-réseaus
-réseaux
 sabadilla
 sabayon
 sabayons
@@ -29925,7 +29866,6 @@ tenesmus
 tenge
 tenno
 tennos
-tenné
 tenoner
 tenorite
 tenorrhaphy
@@ -31104,7 +31044,6 @@ tryptophan
 tryptophans
 trysail
 tryster
-très
 tsarevitch
 tsarevna
 tuatara
@@ -31211,7 +31150,6 @@ tussore
 tussores
 tutelar
 tutty
-tuyère
 twattle
 twayblade
 twayblades
@@ -32437,7 +32375,6 @@ vaporetto
 vaporousness
 vara
 varas
-vargueño
 varia
 variableness
 variablenesses
@@ -33643,8 +33580,3 @@ zymometer
 zymoses
 zymosis
 zymotic
-éclaircissement
-étagère
-étagères
-étui
-étuis

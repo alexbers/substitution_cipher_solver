@@ -782,7 +782,6 @@ cabled
 cables
 cabling
 caffeine
-café
 cage
 cake
 cakes
@@ -1012,7 +1011,6 @@ cleans
 clearance
 cleverer
 cleverest
-cliché
 click
 client
 clients

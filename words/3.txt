@@ -655,8 +655,6 @@ churchgoer
 churchgoers
 churlish
 chutzpah
-château
-châteaux
 cinematographer
 cinematographers
 cirrhosis
@@ -1174,7 +1172,6 @@ dysfunctional
 dysfunctions
 dyslexic
 dyslexics
-détente
 e
 earlobe
 earlobes
@@ -2565,8 +2562,6 @@ musings
 mutability
 mutable
 mystique
-mêlée
-mêlées
 n
 nailbrush
 nailbrushes
@@ -3744,8 +3739,6 @@ smugness
 smuttier
 smuttiest
 smutty
-smörgåsbord
-smörgåsbords
 snafu
 snafus
 snazzier

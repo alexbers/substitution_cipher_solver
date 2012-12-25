@@ -882,10 +882,6 @@ completions
 comprehensibly
 compressible
 computerate
-compère
-compèred
-compères
-compèring
 comradely
 conceitedly
 concernedly
@@ -1105,7 +1101,6 @@ cuppa
 cuppas
 curated
 curating
-curaçao
 curbside
 curmudgeonly
 curricular
@@ -1122,8 +1117,6 @@ cuties
 cutout
 cutouts
 cyan
-cybercafé
-cybercafés
 cyborg
 cyborgs
 cystitis
@@ -1289,7 +1282,6 @@ dhows
 diagrammatically
 dialectical
 dialectics
-diamanté
 diaspora
 diatonic
 dickens
@@ -1422,8 +1414,6 @@ doorstepped
 doorstepping
 doorstop
 doorstops
-doppelgänger
-doppelgängers
 dosh
 doss
 dossed
@@ -1508,8 +1498,6 @@ dustcarts
 dustsheet
 dustsheets
 duvets
-décolletage
-décolletages
 earpiece
 earpieces
 earthbound
@@ -1878,8 +1866,6 @@ gammy
 gangsta
 gangstas
 ganja
-garçon
-garçons
 gasbag
 gasbags
 gasholder
@@ -1952,7 +1938,6 @@ gits
 giver
 givers
 glaciation
-glacé
 glam
 glasnost
 glasshouse
@@ -2795,7 +2780,6 @@ mateys
 mawkishness
 mayoress
 mayoresses
-mañana
 meanderings
 meanie
 meanies
@@ -3112,7 +3096,6 @@ oilmen
 oilskins
 oldish
 oldster
-olé
 oncologist
 oncologists
 onerousness
@@ -3699,8 +3682,6 @@ protectionism
 protectionist
 protectionists
 prototypical
-protégée
-protégées
 provenances
 provincially
 provocateur
@@ -4451,7 +4432,6 @@ sociologically
 sociopolitical
 softback
 softcover
-soignée
 soldiery
 solemnities
 solemnness
@@ -5351,7 +5331,6 @@ vivisectionist
 vivisectionists
 vocationally
 vodkas
-voilà
 voraciousness
 wadge
 wadges
