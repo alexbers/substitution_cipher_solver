@@ -9,7 +9,7 @@ try:
 except ImportError:
     maketrans = str.maketrans
 
-MAX_GOODNESS_LEVEL = 2  # 1-7
+MAX_GOODNESS_LEVEL = 3  # 1-7
 MAX_BAD_WORDS_RATE = 0.06
 
 ABC = "abcdefghijklmnopqrstuvwxyz"
@@ -39,14 +39,11 @@ class WordList:
                     words = self.words.get(properties, set([]))
                     for i in range(word_len + 1):
                         for dots_positions in combinations(range(word_len), i):
-                            adding_word = ""
-                            for j in range(word_len):
-                                if j in dots_positions:
-                                    adding_word += '.'
-                                else:
-                                    adding_word += word[j]
+                            adding_word = bytearray(word)
+                            for j in dots_positions:
+                                adding_word[j] = '.'
 
-                            words.add(adding_word)
+                            words.add(str(adding_word))
                     self.words[properties] = words
 
     def find_word_by_template(self, template, different_chars):
@@ -81,7 +78,7 @@ class KeyFinder:
             self.different_chars[enc_word] = len(set(enc_word))
 
     def get_key_points(self, key):
-        """ the key is 26 byte alpha string with dots on unknown places """
+        """ The key is 26 byte alpha string with dots on unknown places """
 
         trans = maketrans(ABC, key)
         points = 0
@@ -96,7 +93,7 @@ class KeyFinder:
         return points
 
     def recursive_calc_key(self, key, possible_letters, level):
-        """ returns True if solution founded """
+        """ Returns True if solution is founded """
         print("Level: %3d, key: %s" % (level, key))
 
         if '.' not in key:
@@ -152,7 +149,7 @@ def main():
                       if "'" not in word and
                          len(word) <= WordList.MAX_WORD_LENGTH_TO_CACHE
                 ]
-    enc_words = enc_words[:2000]
+    enc_words = enc_words[:1000]
 
     print("Loaded %d words in encrypted.txt, loading dicts" % len(enc_words))
     dict_wordlist = WordList()
@@ -161,6 +158,8 @@ def main():
 
 if __name__ == "__main__":
     try:
+        #import cProfile
+        #cProfile.run('main()')
         main()
     except Exception as E:
         print("Error: %s" % E)
