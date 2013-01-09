@@ -9,7 +9,7 @@ try:
 except ImportError:
     maketrans = str.maketrans
 
-MAX_GOODNESS_LEVEL = 3  # 1-7
+MAX_GOODNESS_LEVEL = 2  # 1-7
 MAX_BAD_WORDS_RATE = 0.06
 
 ABC = "abcdefghijklmnopqrstuvwxyz"
@@ -39,11 +39,11 @@ class WordList:
                     words = self.words.get(properties, set([]))
                     for i in range(word_len + 1):
                         for dots_positions in combinations(range(word_len), i):
-                            adding_word = bytearray(word)
+                            adding_word = list(word)
                             for j in dots_positions:
                                 adding_word[j] = '.'
 
-                            words.add(str(adding_word))
+                            words.add(''.join(adding_word))
                     self.words[properties] = words
 
     def find_word_by_template(self, template, different_chars):
@@ -69,11 +69,12 @@ class WordList:
 
 
 class KeyFinder:
-    def __init__(self, dict_wordlist, enc_words):
+    def __init__(self, enc_words):
         self.points_threshhold = int(len(enc_words) * MAX_BAD_WORDS_RATE)
-        self.dict_wordlist = dict_wordlist
+        self.dict_wordlist = WordList()
         self.enc_words = enc_words
         self.different_chars = {}
+        self.found_keys = {}  # key => bad words
         for enc_word in enc_words:
             self.different_chars[enc_word] = len(set(enc_word))
 
@@ -97,11 +98,9 @@ class KeyFinder:
         print("Level: %3d, key: %s" % (level, key))
 
         if '.' not in key:
-            print("Found: %s" % key)
-            print("Bad words: %s" % self.get_key_points(key))
-            print("Result:")
-            trans = maketrans(ABC, key)
-            print(open("encrypted.txt").read().translate(trans))
+            points = self.get_key_points(key)
+            print("Found: %s, bad words: %d" % (key, points))
+            self.found_keys[key] = points
 
             return True
 
@@ -136,8 +135,10 @@ class KeyFinder:
                 possible_letters[nextpos].remove(letter)
 
     def find(self):
-        possible_letters = [set(ABC) for i in range(len(ABC))]
-        self.recursive_calc_key("." * len(ABC), possible_letters, 1)
+        if not self.found_keys:
+            possible_letters = [set(ABC) for i in range(len(ABC))]
+            self.recursive_calc_key("." * len(ABC), possible_letters, 1)
+        return self.found_keys
 
 
 def main():
@@ -149,12 +150,19 @@ def main():
                       if "'" not in word and
                          len(word) <= WordList.MAX_WORD_LENGTH_TO_CACHE
                 ]
-    enc_words = enc_words[:1000]
+    enc_words = enc_words[:200]
 
     print("Loaded %d words in encrypted.txt, loading dicts" % len(enc_words))
-    dict_wordlist = WordList()
-    finder = KeyFinder(dict_wordlist, enc_words)
-    finder.find()
+
+    keys = KeyFinder(enc_words).find()
+    if not keys:
+        print("Key not founded, try to increase MAX_BAD_WORDS_RATE")
+    for key, bad_words in keys.items():
+        print("Possible key: %s, bad words:%d" % (key, bad_words))
+    best_key = min(keys, key=keys.get)
+    print("Best key: %s, bad_words %d" % (best_key, keys[best_key]))
+    trans = maketrans(ABC, best_key)
+    print(open("encrypted.txt").read().translate(trans))
 
 if __name__ == "__main__":
     try:
