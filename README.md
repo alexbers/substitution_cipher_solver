@@ -1,7 +1,8 @@
 Substitution Cipher Solver
 =========================
 
-Simple substitution cipher solver.
+Simple substitution cipher solver. It not uses letter statistics as most do, instead it uses
+intellectual algo based on wordlist.
 
 ## Usage ##
 
