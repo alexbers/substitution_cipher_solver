@@ -94,15 +94,17 @@ class KeyFinder:
         return points
 
     def recursive_calc_key(self, key, possible_letters, level):
-        """ Returns True if solution is founded """
+        """ Tries to place a possible letters on places with dots """
         print("Level: %3d, key: %s" % (level, key))
 
         if '.' not in key:
             points = self.get_key_points(key)
             print("Found: %s, bad words: %d" % (key, points))
             self.found_keys[key] = points
+            return
 
-            return True
+        nextpos = -1  # a pos with a minimum length of possible letters
+        minlen = len(ABC) + 1
 
         for pos in range(len(ABC)):
             if key[pos] == ".":
@@ -112,27 +114,20 @@ class KeyFinder:
                     if self.get_key_points(new_key) > self.points_threshhold:
                         possible_letters[pos].remove(letter)
                         if not possible_letters[pos]:
-                            return False
+                            return
 
-        nextpos = -1
-        minlen = len(ABC) + 1
-
-        for pos in range(len(ABC)):
-            if key[pos] == ".":
                 if len(possible_letters[pos]) < minlen:
                     minlen = len(possible_letters[pos])
                     nextpos = pos
 
-        for letter in list(possible_letters[nextpos]):
+        while possible_letters[nextpos]:
+            letter = possible_letters[nextpos].pop()
             new_possible_letters = copy.deepcopy(possible_letters)
             for pos in range(len(ABC)):
                 new_possible_letters[pos] -= set([letter])
             new_possible_letters[nextpos] = set([letter])
             new_key = key[:nextpos] + letter + key[nextpos + 1:]
-            found = self.recursive_calc_key(new_key, new_possible_letters,
-                                            level + 1)
-            if not found:
-                possible_letters[nextpos].remove(letter)
+            self.recursive_calc_key(new_key, new_possible_letters, level + 1)
 
     def find(self):
         if not self.found_keys:
