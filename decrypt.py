@@ -157,7 +157,16 @@ def main():
     best_key = min(keys, key=keys.get)
     print("Best key: %s, bad_words %d" % (best_key, keys[best_key]))
     trans = maketrans(ABC, best_key)
-    print(open("encrypted.txt").read().translate(trans))
+    decrypted = open("encrypted.txt").read().translate(trans)
+    try:
+        decryptedFile = open("decrypted.txt", "w")
+        try:
+            decryptedFile.write(decrypted)
+        finally:
+            decryptedFile.close()
+    except IOError:
+        print("[*] Decrypted text not saved")
+    print(decrypted)
 
 if __name__ == "__main__":
     try:
